@@ -7,8 +7,7 @@ apt-get install -y --reinstall \
   python3-dev \
   python3-testresources \
   python3-pip \
-  python3-testresources \
-  python-dev \
+  python3-testresources 
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 python3 -m pip install --disable-pip-version-check --upgrade --force-reinstall setuptools
