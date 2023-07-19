@@ -11,7 +11,7 @@
   tasks:
     - name: Cloning PG Blitz - From Installer
       git:
-        repo: 'https://github.com/PGBlitz/PGBlitz.com'
+        repo: 'https://github.com/titooo7/PGBlitz.com'
         dest: /opt/plexguide
         version: 'v8.5base'
         force: yes
