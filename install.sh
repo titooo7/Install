@@ -37,7 +37,7 @@ if [ -e "/pg/stage" ]; then rm -rf /pg/stage; fi
 rm -rf /pg/stage/place.holder 1>/dev/null 2>&1
 
 # Clone the Program to Stage for Installation
-git clone -b v1 --single-branch https://github.com/PGBlitz/Stage.git /pg/stage
+git clone -b v1 --single-branch https://github.com/titooo7/Stage.git /pg/stage
 
 # Checking to See if the Installer ever Installed Python; if so... skip
 var37="/pg/var/python.firstime"
