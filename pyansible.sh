@@ -10,7 +10,7 @@ apt-get install -y --reinstall \
   python3-testresources \
   python-dev \
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-sudo python3 get-pip.py
+python3 get-pip.py
 python3 -m pip install --disable-pip-version-check --upgrade --force-reinstall setuptools
 python3 -m pip install --disable-pip-version-check --upgrade --force-reinstall \
   pyOpenSSL \
